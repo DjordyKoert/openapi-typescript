@@ -167,7 +167,7 @@ export default function createClient(clientOptions) {
     // handle errors
     let error = await response.text();
     try {
-      error = JSON.parse(error); // attempt to parse as JSON
+      error = JSON.parse(error); // attempt to parse as JSONdsd
     } catch {
       // noop
     }
